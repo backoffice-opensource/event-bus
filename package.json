@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "docker:build": "docker build -t boos/event-bus .",
+    "docker:run": "docker run boos/event-bus"
   },
   "keywords": [],
   "author": "",
